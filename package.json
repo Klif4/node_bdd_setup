@@ -1,0 +1,32 @@
+{
+  "name": "node_bdd_setup",
+  "version": "1.0.0",
+  "description": "Node BDD Setup",
+  "main": "index.js",
+  "scripts": {
+    "test.unit": "jest",
+    "test.acceptance": "cucumber-js -p default; node feature-html-report.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klif4/node_bdd_setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klif4/node_bdd_setup/issues"
+  },
+  "homepage": "https://github.com/Klif4/node_bdd_setup#readme",
+  "devDependencies": {
+    "@types/cucumber": "^6.0.1",
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.23",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.2.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

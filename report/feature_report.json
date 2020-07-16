@@ -1,0 +1,59 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test feature",
+    "line": 1,
+    "id": "test-feature",
+    "tags": [],
+    "uri": "feature/test.feature",
+    "elements": [
+      {
+        "id": "test-feature;test-scenario",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Test Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I Have 1",
+            "match": {
+              "location": "test/acceptance/MySteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I add 1",
+            "match": {
+              "location": "test/acceptance/MySteps.ts:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I have 2",
+            "match": {
+              "location": "test/acceptance/MySteps.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
